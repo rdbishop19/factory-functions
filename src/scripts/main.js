@@ -71,4 +71,9 @@ Invoke the factory function 3 times and place each animal in an array stored in 
  }
 
  const maggie = newPet("Maggie", "Calico");
- console.log(maggie);
+ const fido = newPet("Fido", "Beagle");
+ const fluffy = newPet("Fluffy", "Dragon");
+
+ const BowWowKennels = [maggie, fido, fluffy];
+
+ console.log(BowWowKennels);
